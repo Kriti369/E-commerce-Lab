@@ -1,0 +1,10 @@
+[
+  {"id":"salt-and-signal","title":"Salt and Signal","author":"Mara Delacroix","category":"Fiction","price":8.99,"pages":312,"color1":"#0e4d64","color2":"#2a9d8f","description":"A radio operator on a remote island picks up a broadcast that shouldn't exist."},
+  {"id":"the-quiet-algorithm","title":"The Quiet Algorithm","author":"Jonas Whitfield","category":"Technology","price":14.50,"pages":240,"color1":"#2b2d42","color2":"#5c6bc0","description":"How everyday software makes decisions, explained without the jargon."},
+  {"id":"kitchen-table-economics","title":"Kitchen Table Economics","author":"Priya Raman","category":"Non-fiction","price":11.00,"pages":198,"color1":"#9c3d54","color2":"#e07a5f","description":"Household budgets, inflation and interest rates, one real example at a time."},
+  {"id":"a-map-of-small-hours","title":"A Map of Small Hours","author":"Elena Voss","category":"Fiction","price":7.49,"pages":276,"color1":"#3d348b","color2":"#7678ed","description":"Night-shift workers in one city, and the stories that connect them."},
+  {"id":"learn-sql-in-a-weekend","title":"Learn SQL in a Weekend","author":"Tom Okafor","category":"Technology","price":12.99,"pages":184,"color1":"#1b4332","color2":"#52b788","description":"Twenty short exercises that take you from SELECT to joins and transactions."},
+  {"id":"the-lighthouse-letters","title":"The Lighthouse Letters","author":"Anneliese Marsh","category":"Fiction","price":6.99,"pages":330,"color1":"#6a040f","color2":"#d00000","description":"Three generations of keepers, one box of unsent letters."},
+  {"id":"walking-the-long-way","title":"Walking the Long Way","author":"Kofi Mensah","category":"Non-fiction","price":9.75,"pages":220,"color1":"#5f4b32","color2":"#c9a227","description":"A memoir of crossing a continent on foot, and what slowing down teaches."},
+  {"id":"design-for-the-impatient","title":"Design for the Impatient","author":"Sana Iqbal","category":"Technology","price":13.25,"pages":206,"color1":"#14213d","color2":"#fca311","description":"Practical layout, colour and type rules for people who need results today."}
+]
