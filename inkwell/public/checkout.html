@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout | Inkwell Books</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar"><a class="brand" href="index.html">Inkwell Books</a><div class="nav"><div id="nav-user" class="nav"></div><a class="btn ghost" href="index.html">Back to shop</a></div></header>
+  <main>
+    <div id="checkout" class="checkout">
+      <form id="pay-form" class="panel" autocomplete="on" novalidate>
+        <h2>Payment details</h2>
+        <p id="who" class="meta"></p>
+        <p class="notice">Demo gateway. Use card <strong>4242 4242 4242 4242</strong> to succeed or <strong>4000 0000 0000 0002</strong> to be declined, any future expiry, any 3-digit code.</p>
+        <label for="number">Card number</label>
+        <input id="number" inputmode="numeric" autocomplete="cc-number" placeholder="4242 4242 4242 4242" required>
+        <div class="row">
+          <div><label for="exp">Expiry date (MM/YY)</label><input id="exp" inputmode="numeric" autocomplete="cc-exp" placeholder="12/29" required></div>
+          <div><label for="cvc">Security code (CVC)</label><input id="cvc" inputmode="numeric" autocomplete="cc-csc" maxlength="4" placeholder="123" required></div>
+        </div>
+        <p class="meta">The expiry date is printed on the card. A bank only accepts a card that has not expired.</p>
+        <p style="margin-top:20px"><button id="pay" class="btn" type="submit">Pay now</button></p>
+        <p id="msg" role="status"></p>
+      </form>
+      <section class="panel">
+        <h2>Your order</h2>
+        <div id="summary"></div>
+        <div class="total" style="margin-top:14px"><span>Total</span><span id="total"></span></div>
+      </section>
+    </div>
+  </main>
+  <script src="js/cart.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

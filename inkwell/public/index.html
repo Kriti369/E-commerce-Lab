@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Inkwell Books | E-books you can download today</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="index.html">Inkwell Books</a>
+    <div class="nav"><div id="nav-user" class="nav"></div><button id="open-cart" class="btn ghost">Cart <span id="cart-count">0</span></button></div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Buy a book tonight. Read it tonight.</h1>
+      <p>Fiction, non-fiction and technology titles. Pay once and download straight away, with no shipping and no waiting.</p>
+      <a class="btn" href="#catalog">Browse the catalogue</a>
+    </div>
+    <div class="stack" id="hero-stack" aria-hidden="true"></div>
+  </section>
+
+  <main id="catalog">
+    <div class="tools">
+      <input id="q" type="search" placeholder="Search by title or author" aria-label="Search books">
+      <select id="cat" aria-label="Filter by category"></select>
+    </div>
+    <div id="grid" class="grid"></div>
+    <p id="empty" hidden>No books match your search. Try a different word or category.</p>
+  </main>
+
+  <div id="overlay"></div>
+  <aside id="drawer" aria-label="Shopping cart">
+    <div class="drawer-head"><h2>Your cart</h2><button id="close-cart" class="linkbtn" style="color:var(--ink)">Close</button></div>
+    <ul id="cart-items"></ul>
+    <div class="drawer-foot">
+      <div class="total"><span>Total</span><span id="cart-total">$0.00</span></div>
+      <a id="go-checkout" class="btn" href="checkout.html" hidden>Go to checkout</a>
+    </div>
+  </aside>
+
+  <footer>Inkwell Books is a university demo project. No real payments are taken.</footer>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

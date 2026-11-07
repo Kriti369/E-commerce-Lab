@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sign in | Inkwell Books</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar"><a class="brand" href="index.html">Inkwell Books</a><div class="nav"><div id="nav-user" class="nav"></div><a class="btn ghost" href="index.html">Back to shop</a></div></header>
+  <main>
+    <div class="panel auth">
+      <div class="tabs">
+        <button id="tab-in" class="tab on" type="button">Sign in</button>
+        <button id="tab-up" class="tab" type="button">Create account</button>
+      </div>
+      <form id="auth-form" novalidate>
+        <div id="name-row" hidden><label for="name">Full name</label><input id="name" autocomplete="name" maxlength="80"></div>
+        <label for="email">Email</label>
+        <input id="email" type="email" autocomplete="email" maxlength="120" required>
+        <label for="password">Password</label>
+        <input id="password" type="password" autocomplete="current-password" maxlength="72" required>
+        <p id="pw-hint" class="meta" hidden>Use 8 to 72 characters.</p>
+        <p style="margin-top:20px"><button id="submit" class="btn" type="submit">Sign in</button></p>
+        <p id="msg" role="status"></p>
+      </form>
+    </div>
+  </main>
+  <script src="js/cart.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
